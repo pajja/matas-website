@@ -5,120 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>matas pajarskas</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- Slide One -->
-    <h1>
-      Hello! <br />
-      I am Matas. <br />
-      I am a web designer, <br />
-      web developer, <br />
-      CS student.
-    </h1>
-
-    <!-- Slide Two -->
-    <div>
-      <h2>Design</h2>
-      <h2>Develop</h2>
-      <h2>Maintain</h2>
-    </div>
-
-    <div>
-      <h3>sitemap</h3>
-      <h3>sketching</h3>
-      <h3>color scheme</h3>
-      <h3>typography</h3>
-      <h3>images & icons</h3>
-      <h3>final design</h3>
-    </div>
-    <!-- _content_ -->
-    <div class="design-visuals">
-      <div>
-        <img src="assets/images/wave1.png" alt="Wave 1" />
-        <p>Website</p>
-        <img src="assets/images/wave2.png" alt="Wave 2" />
-      </div>
-      <div><img src="assets/images/menu.png" alt="Menu" /></div>
-      <div>
-        <img src="assets/images/img-clouds.png" alt="Clouds" />
-        <img src="assets/images/img-door.png" alt="Door" />
-        <img src="assets/images/img-flowers.png" alt="Flowers" />
-      </div>
-    </div>
-
-    <!-- Slide Three -->
-    <div>
-      <h3>html, css, js</h3>
-      <h3>frameworks & libraries</h3>
-      <h3>git, github</h3>
-      <h3>user-friendly nav</h3>
-      <h3>responsive layout</h3>
-      <h3>SEO</h3>
-    </div>
-
-    <!-- _content_ -->
-    <div>
-      <div>
-        <p>_start:</p>
-      </div>
-      <div>
-        <p>mov eax, 4          ; sys_write</p>
-        <p>mov ebx, 1          ; stdout</p>
-        <p>mov ecx, message</p>
-        <p>mov edx, msg_len</p>
-        <p>int 0x80</p>
-      </div>
-      <div>
-        <p>mov eax, 3          ; sys_read</p>
-        <p>mov ebx, 0          ; stdin</p>
-        <p>mov ecx, buffer</p>
-        <p>mov edx, 64</p>
-        <p>int 0x80</p>
-      </div>
-      <div>
-        <p>mov esi, buffer     ; source pointer</p>
-        <p>mov ecx, eax        ; bytes read count</p>
-        <p>mov edi, buffer     ; dest pointer</p>
-      </div>
-      <div>
-        <p>encrypt_loop:</p>
-      </div>
-      <div>
-        <p>cmp ecx, 0</p>
-        <p>je done_encrypt</p>
-        <p>lodsb               ; load byte from esi into al, increment esi</p>
-        <p>xor al, 0x5A        ; xor with key</p>
-        <p>stosb               ; store al to edi, increment edi</p>
-        <p>loop encrypt_loop</p>
-      </div>
-    </div>
-
-    <!-- Slide Four -->
-    <div>
-      <div>
-        <h3>hosting</h3>
-        <h3>Cloudflare</h3>
-      </div>
-      <div>
-        <h3>analytics & reporting</h3>
-        <h3>Google Analytics, Google Search Console</h3>
-      </div>
-      <div>
-        <h3>updates</h3>
-        <h3>website content, Google Business Profile Manager</h3>
-      </div>
-    </div>
-
-    <!-- _content_ -->
-    <div>
-      <img src="assets/images/clouds-left.png" alt="Clouds Left" />
-      <img src="assets/images/clouds-right.png" alt="Clouds Right" />
-      <img src="assets/images/sun.png" alt="Sun" />
-      <img src="assets/images/mountains.png" alt="Mountains" />
+    <div class="hello-div">
+      <h1>Matas Pajarskas</h1>
     </div>
   </body>
 </html>

@@ -1,0 +1,28 @@
+.hello-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #464646;
+}
+
+.design-develop-maintain-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  height: 100vh;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  color: #464646;
+  font-size: 15px;
+  place-items: center;
+}
+
+h1,
+h2 {
+  font-weight: inherit;
+}

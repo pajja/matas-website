@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>matas pajarskas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-16x16.png"
+    />
+    <link rel="manifest" href="../site.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Slide One -->
+    <div class="hello-div">
+      <h1>
+        Hello! <br />
+        I am Matas. <br />
+        I am a web designer, <br />
+        web developer, <br />
+        CS student.
+      </h1>
+    </div>
+
+    <!-- Slide Two -->
+    <div class="design-develop-maintain-div">
+      <h2>Design</h2>
+      <h2>Develop</h2>
+      <h2>Maintain</h2>
+    </div>
+
+    <div>
+      <h4>sitemap</h4>
+      <h4>sketching</h4>
+      <h4>color scheme</h4>
+      <h4>typography</h4>
+      <h4>images & icons</h4>
+      <h4>final design</h4>
+    </div>
+    <!-- _content_ -->
+    <div class="design-visuals">
+      <div>
+        <img src="../assets/images/wave1.png" alt="Wave 1" />
+        <p>Website</p>
+        <img src="../assets/images/wave2.png" alt="Wave 2" />
+      </div>
+      <div><img src="../assets/images/menu.png" alt="Menu" /></div>
+      <div>
+        <img src="../assets/images/img-clouds.png" alt="Clouds" />
+        <img src="../assets/images/img-door.png" alt="Door" />
+        <img src="../assets/images/img-flowers.png" alt="Flowers" />
+      </div>
+    </div>
+
+    <!-- Slide Three -->
+    <div>
+      <h4>html, css, js</h4>
+      <h4>frameworks & libraries</h4>
+      <h4>git, github</h4>
+      <h4>user-friendly nav</h4>
+      <h4>responsive layout</h4>
+      <h4>SEO</h4>
+    </div>
+
+    <!-- _content_ -->
+    <div>
+      <div>
+        <p>_start:</p>
+      </div>
+      <div>
+        <p>mov eax, 4          ; sys_write</p>
+        <p>mov ebx, 1          ; stdout</p>
+        <p>mov ecx, message</p>
+        <p>mov edx, msg_len</p>
+        <p>int 0x80</p>
+      </div>
+      <div>
+        <p>mov eax, 3          ; sys_read</p>
+        <p>mov ebx, 0          ; stdin</p>
+        <p>mov ecx, buffer</p>
+        <p>mov edx, 64</p>
+        <p>int 0x80</p>
+      </div>
+      <div>
+        <p>mov esi, buffer     ; source pointer</p>
+        <p>mov ecx, eax        ; bytes read count</p>
+        <p>mov edi, buffer     ; dest pointer</p>
+      </div>
+      <div>
+        <p>encrypt_loop:</p>
+      </div>
+      <div>
+        <p>cmp ecx, 0</p>
+        <p>je done_encrypt</p>
+        <p>lodsb               ; load byte from esi into al, increment esi</p>
+        <p>xor al, 0x5A        ; xor with key</p>
+        <p>stosb               ; store al to edi, increment edi</p>
+        <p>loop encrypt_loop</p>
+      </div>
+    </div>
+
+    <!-- Slide Four -->
+    <div>
+      <div>
+        <h4>hosting</h4>
+        <h4>Cloudflare</h4>
+      </div>
+      <div>
+        <h4>analytics & reporting</h4>
+        <h4>Google Analytics, Google Search Console</h4>
+      </div>
+      <div>
+        <h4>updates</h4>
+        <h4>website content, Google Business Profile Manager</h4>
+      </div>
+    </div>
+
+    <!-- _content_ -->
+    <div>
+      <img src="../assets/images/clouds-left.png" alt="Clouds Left" />
+      <img src="../assets/images/clouds-right.png" alt="Clouds Right" />
+      <img src="../assets/images/sun.png" alt="Sun" />
+      <img src="../assets/images/mountains.png" alt="Mountains" />
+    </div>
+
+    <!-- Slide Five -->
+    <h3>VALUES</h3>
+    <div>
+      <h4>always reachable</h4>
+      <h4>be honest, no pressure</h4>
+      <h4>here for the long run</h4>
+    </div>
+
+    <!-- _content_ -->
+    <div>
+      <img src="../assets/images/grass.png" alt="Grass" />
+    </div>
+
+    <!-- Slide Six -->
+    <h3>Price</h3>
+    <div>
+      <h4>Design & Develop</h4>
+      <h4>custom price</h4>
+      <h4>Maintain</h4>
+      <h4>40€/month</h4>
+    </div>
+
+    <!-- Slide Seven -->
+    <div><img src="../assets/images/flower.png" alt="Flower" /></div>
+  </body>
+</html>
