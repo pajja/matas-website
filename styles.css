@@ -1,0 +1,70 @@
+body {
+  font-family: Ysabeau, sans-serif;
+  text-align: center;
+  font-size: 14px;
+  background-color: rgb(251, 251, 251);
+  color: rgb(20, 20, 20);
+}
+
+.name-div {
+  margin: 5vh 0 0 0;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.artist-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bio-div {
+  margin: 5vh 0 0 0;
+  padding: 20px 18vw 20px 18vw;
+  border: 1px solid black;
+}
+
+.discography-div {
+  margin: 5vh 0 0 0;
+  border: 1px solid black;
+}
+
+.events-div {
+  margin: 5vh 0 5vh 0;
+  border: 1px solid black;
+  padding: 20px 0 40px 0;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2,
+h3 {
+  font-size: 14px;
+}
+
+.covers img {
+  width: auto;
+  height: 50vh;
+}
+
+.covers {
+  padding: 30px;
+}
+
+td {
+  padding: 2px 20px;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  height: 100vh;
+  width: auto;
+}
